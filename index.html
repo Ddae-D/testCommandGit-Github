@@ -1,7 +1,29 @@
 <!doctype html>
 <html lang="es">
-	<head>
-	</head>
-	<body>
-	</body>
+
+<head>
+    <title>test command</title>
+    <script>
+        var nom = prompt("your name is..... :");
+        var tim = new Date();
+        var fecha = tim.getDate() + " del mes " + (tim.getMonth() + 1) + " del año " + tim.getFullYear() + "<br/>hora actual: " + tim.getHours() + " horas " + tim.getMinutes() + " minutos " + tim.getSeconds() + " segundos";
+    </script>
+</head>
+
+<body>
+    <script src="main.js"></script>
+    <input type="button" id="btn" />
+    <script>
+        document.body.style.backgroundColor = "#43cea2";
+        var btn = document.getElementById("btn");
+        btn.style.backgroundColor = "#185a9d";
+        btn.style.width = "200px"
+        btn.style.height = "200px";
+        btn.style.borderRadius = "100%";
+        btn.style.border = "2px solid white";
+        /*
+         */
+    </script>
+</body>
+
 </html>
