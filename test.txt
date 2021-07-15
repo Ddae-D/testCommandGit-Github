@@ -1,0 +1,2 @@
+requerimientos:
+POO en JS y HTML básico
